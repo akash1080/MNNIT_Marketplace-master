@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sellActivity">
+
+    <include
+        android:id="@+id/sell_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+
+    <EditText
+        android:id="@+id/sell_item_title_input"
+        android:layout_width="350dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/spinner_sell_category"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        android:hint="@string/item_s_title"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_sell_category"
+        android:layout_width="347dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:entries="@array/sell_items_ctg"
+        android:hint="@string/select_catagory" />
+
+
+    <EditText
+        android:id="@+id/Description_sell"
+        android:layout_width="346dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/spinner_sell_category"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="228dp"
+        android:ems="10"
+        android:hint="@string/add_description"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/price_sell"
+        android:layout_width="346dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/spinner_sell_category"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="283dp"
+        android:ems="10"
+        android:hint="@string/add_price"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Proceed_Sell"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="#800080"
+        android:text="@string/proceed" />
+
+    <EditText
+        android:id="@+id/Location_sell"
+        android:layout_width="346dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/sell_item_title_input"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="339dp"
+        android:ems="10"
+        android:hint="@string/add_location"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/add_img"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/Proceed_Sell"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="#F73207"
+        android:text="@string/add_image" />
+
+
+</RelativeLayout>

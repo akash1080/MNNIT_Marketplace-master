@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".StartActivity">
+
+    <include
+        android:id="@+id/start_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <Button
+        android:id="@+id/startregbtn"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="174dp"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/need_a_new_account"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/login_reg_btn"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="233dp"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/already_have_an_account"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/startregbtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+</RelativeLayout>

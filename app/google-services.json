@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "126068947296",
+    "firebase_url": "https://mnnit-market.firebaseio.com",
+    "project_id": "mnnit-market",
+    "storage_bucket": "mnnit-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126068947296:android:f0d6fd22c01f2ce5",
+        "android_client_info": {
+          "package_name": "com.example.akash.MNNITMarketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126068947296-fghgpnu99adrk0rsvfnobspcru15odid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.MNNITMarketplace",
+            "certificate_hash": "406d154de04b2d2846bb50a1fddf7daa1af8f772"
+          }
+        },
+        {
+          "client_id": "126068947296-msqc11hllu43625loa59jjneg5qmhnu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLL90Ah-ghtcckq5sga7Ttj0zp1QkokQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126068947296-msqc11hllu43625loa59jjneg5qmhnu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">1st project</string>
+    <string name="button01">Button</string>
+    <string name="Welcome_to_MNNIT_Marketplace">Welcome to MNNIT Marketplace</string>
+    <string name="need_a_new_account">Need A New Account</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="this_is_home_page">This is home page</string>
+    <string name="log_out">Log Out</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="login_email">Email</string>
+    <string name="already_have_an_account">Already Have An Account</string>
+    <string name="books">Books</string>
+    <string name="electronics">Electronics</string>
+    <string name="others">Others</string>
+    <string name="Log_in">Login</string>
+    <string name="my_account">My Account</string>
+    <string name="sell">SELL</string>
+    <string name="item_s_title">Item\'s Title</string>
+    <string name="select_catagory">Select Catagory</string>
+    <string name="add_description">Add Description</string>
+    <string name="add_price">Add Price</string>
+    <string name="proceed">Proceed</string>
+    <string name="add_location">Add Location</string>
+    <string name="add_image">Add Image</string>
+    <string name="todo">TODO</string>
+    <string name="item_price">Item Price</string>
+    <string name="item_title">Item Title</string>
+    <array name="sell_items_ctg">
+        <item>Books</item>
+        <item>Electronics</item>
+        <item>Others</item>
+    </array>
+    <string name="title_activity_my_account">myAccount</string>
+    <string name="description">Description</string>
+    <string name="price">price</string>
+    <string name="title">Title</string>
+    <string name="address">address</string>
+
+
+</resources>
